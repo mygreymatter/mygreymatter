@@ -1,0 +1,12 @@
+{
+    "name": "mygreymatter",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "My site",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.13.4"
+    }
+}
