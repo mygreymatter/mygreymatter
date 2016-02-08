@@ -4,19 +4,293 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/app.css" />
     <title>mygreymatter</title>
 </head>
 
 <body ng-app="MayoApp">
-    <div ng-controller="HomeController" ng-cloak>
-        {{message}}
-    </div>
+    <!-- Home section - begin-->
+    <div ng-controller="HomeController" class="pad-section">
+        <div class="container-fluid green">
 
+            <div class="row">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand show-mobile" href="#">mahayogi - android & full stack</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#work">Work</a></li>
+                                <li><a href="#profile">Profile</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+
+            </div>
+
+            <div class="row text-center jumbotron height hide-mobile">
+                <!--<div class="col-md-3"></div>-->
+                <div class="col-md-12">
+                    <h1>mahayogi</h1>
+                    <span> android and full-stack developer</span>
+                </div>
+                <!--<div class="col-md-3"></div>-->
+            </div>
+
+        </div>
+    </div>
+    <!-- Home section - end -->
+
+    <!-- Work section - begin -->
+    <div id="work" class="pad-section">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h1>Work</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 text-center ">
+                    <label>
+                        <h2>Gazapp</h2></label>
+                    <lead>(Android)</lead>
+                    <br/>
+                    <h4><strong>Scimata Computing</strong></h4>
+
+                    <p>2013-2015</p>
+                    <p class="text-justify description">
+                        Gazapp is a location-based visual food guide. It empowers the users to select the good quality food recommended by their friends who are in their mobile contact list. It enables restaurants to identify the loyal customers and to run the loyal programmes. The user must ask for a <strong>Zapptoken</strong> to scan the QR code on it. Then the app unlocks the ability to take a picture. The user can capture the food, upload it and then rate it.
+                    </p>
+                    <p>
+                        <a href="https://play.google.com/store/apps/details?id=com.scimata.gazapp">
+                            Available on google Play store
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row hide-mobile ">
+
+                <div class="col-md-4">
+                    <div class="text-right">
+                        <img src="../images/now.png" width="200px">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="../images/hot.png" width="200px">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-left">
+                        <img src="../images/goodies.png" width="200px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--</div>-->
+    <!-- Work section - end -->
+    <!-- Profile section - begin -->
+    <div id="profile" class="pad-section">
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h1>Profile</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 col-sm-4 text-center">
+                    <h3><strong>Mahayogi Lakshmipathi</strong></h3>
+                    <h5>Bengaluru</h5>
+                    <mark class="tag">Android</mark>
+                    <mark class="tag">Java</mark>
+                    <mark class="tag">Angularjs</mark>
+                    <mark class="tag">Nodejs</mark>
+                </div>
+                <div class="col-md-3"></div>
+
+            </div>
+            <br class="hide-mobile" />
+            <!--Education - Begin-->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3 class="no-margin"><strong>Education</strong></h3>
+                        </div>
+                        <div class="col-md-9 padding-left-for-center">
+                            <h4 class="no-top-margin"><strong>Master of Technology (I.T.)</strong></h4>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <label>A.U.C.E., Visakhapatnam</label>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <label>2010-2012</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-9 padding-left-for-center">
+                            <h4><strong>Diploma in System Software Development</strong></h4>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <label>CDAC, Chennai</label>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <label>2007-2008</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-9 padding-left-for-center">
+                            <h4><strong>Bacherlor of Technology (E.C.E.)</strong></h4>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <label>JNTU, Kakinada</label>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <label>2003-2007</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <br/>
+            <!--Education - End-->
+            <!--Experience - Begin-->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3 class="no-margin"><strong>Experience</strong></h3>
+                        </div>
+                        <div class="col-md-9 padding-left-for-center">
+                            <h4 class="no-top-margin"><strong>Principal Software Engineer</strong></h4>
+                            <span class="glyphicon glyphicon-lock"></span>
+                            <label>Scimata Computing</label>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <label>Oct.2014 to till date.</label>
+                        </div>
+                        <!--<div class="col-md-3"></div>-->
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-9 padding-left-for-center">
+                            <h4><strong>Mobile and Web Engineer</strong></h4>
+                            <span class="glyphicon glyphicon-lock"></span>
+                            <label>Scimata Computing</label>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <label>Dec.2013 to Oct.2014</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-9 padding-left-for-center">
+                            <h4><strong>Software Engineer</strong></h4>
+                            <span class="glyphicon glyphicon-lock"></span>
+                            <label>LG Soft India</label>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <label>Jan. 2008 to Mar. 2009</label>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <!--Experience - Begin-->
+        </div>
+        <!--Container-->
+    </div>
+    <!-- Profile section - end -->
+
+    <!-- Contact section - begin -->
+    <div id="contact" class="pad-section">
+        <div class="container-fluid text-center">
+            <div class="row text-center jumbotron padding-mobile">
+                <div class="col-md-12 hide-mobile">
+                    <h1>Contact</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 tag">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        <label><a href="mailto:mygreymatter@gmail.com?subject=inquiry"><h4>mygreymatter@gmail.com</h4></a></label>
+                    </div>
+                </div>
+                <div class="row tag">
+                    <span class="glyphicon glyphicon-earphone"></span>
+                    <label><a href="tel:+91-819-797-3804"><h4>(+91) 819-797-3804</h4></a></label>
+
+                </div>
+            </div>
+            <!--<div class="row">
+    <h1>Contact</h1>
+</div>
+<div class="row">
+    <div class="col-md-12 tag">
+        <span class="glyphicon glyphicon-envelope"></span>
+        <label><a href="mailto:mygreymatter@gmail.com?subject=inquiry">mygreymatter@gmail.com</a></label>
+    </div>
+</div>
+<div class="row tag">
+    <span class="glyphicon glyphicon-earphone"></span>
+    <label><a href="tel:+91-819-797-3804">(+91) 819-797-3804</a></label>
+
+</div>-->
+        </div>
+
+    </div>
+    </div>
+    <!-- Contact section - end -->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="../js/libs/angular.min.js"></script>
+    <script src="../js/libs/bootstrap.min.js"></script>
     <script src="../js/app.js"></script>
     <script src="../js/home.js"></script>
 </body>
