@@ -11,9 +11,9 @@
     <title>mygreymatter</title>
 </head>
 
-<body ng-app="MayoApp">
+<body>
     <!-- Home section - begin-->
-    <div ng-controller="HomeController" class="pad-section">
+    <div id="Home" class="pad-section">
         <div class="container-fluid green">
 
             <div class="row">
@@ -27,7 +27,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand show-mobile" href="#">mahayogi - android & full stack</a>
+                            <a class="navbar-brand show-mobile text-center" href="#"><strong>mahayogi</strong> - android & full stack</a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,7 +35,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#work">Work</a></li>
                                 <li><a href="#profile">Profile</a></li>
-                                <li><a href="#blog">Blog</a></li>
+                                <!--<li><a href="#blog">Blog</a></li>-->
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -47,13 +47,17 @@
             </div>
 
             <div class="row text-center jumbotron height hide-mobile">
-                <!--<div class="col-md-3"></div>-->
                 <div class="col-md-12">
                     <h1>mahayogi</h1>
                     <span> android and full-stack developer</span>
                 </div>
-                <!--<div class="col-md-3"></div>-->
             </div>
+            <!--<div class="row text-center height show-mobile">
+    <div class="col-md-12">
+        <h1>mahayogi</h1>
+        <span> android and full-stack developer</span>
+    </div>
+</div>-->
 
         </div>
     </div>
@@ -69,24 +73,24 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center ">
                     <label>
-                        <h2>Gazapp</h2></label>
+                        <h2 class="no-top-margin">Gazapp</h2></label>
                     <lead>(Android)</lead>
                     <br/>
                     <h4><strong>Scimata Computing</strong></h4>
 
                     <p>2013-2015</p>
-                    <p class="text-justify description">
+                    <p class="text-justify description mobile-height">
                         Gazapp is a location-based visual food guide. It empowers the users to select the good quality food recommended by their friends who are in their mobile contact list. It enables restaurants to identify the loyal customers and to run the loyal programmes. The user must ask for a <strong>Zapptoken</strong> to scan the QR code on it. Then the app unlocks the ability to take a picture. The user can capture the food, upload it and then rate it.
                     </p>
                     <p>
-                        <a href="https://play.google.com/store/apps/details?id=com.scimata.gazapp">
+                        <a href="https://play.google.com/store/apps/details?id=com.scimata.gazapp" class="app-store-link">
                             Available on google Play store
                         </a>
                     </p>
                 </div>
                 <div class="col-md-3"></div>
             </div>
-            <div class="row hide-mobile ">
+            <div class="row hide-mobile margin-bottom-10">
 
                 <div class="col-md-4">
                     <div class="text-right">
@@ -252,7 +256,7 @@
     <!-- Contact section - begin -->
     <div id="contact" class="pad-section">
         <div class="container-fluid text-center">
-            <div class="row text-center jumbotron padding-mobile">
+            <div class="row text-center jumbotron padding-mobile mobile-height">
                 <div class="col-md-12 hide-mobile">
                     <h1>Contact</h1>
                 </div>
@@ -268,20 +272,6 @@
 
                 </div>
             </div>
-            <!--<div class="row">
-    <h1>Contact</h1>
-</div>
-<div class="row">
-    <div class="col-md-12 tag">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <label><a href="mailto:mygreymatter@gmail.com?subject=inquiry">mygreymatter@gmail.com</a></label>
-    </div>
-</div>
-<div class="row tag">
-    <span class="glyphicon glyphicon-earphone"></span>
-    <label><a href="tel:+91-819-797-3804">(+91) 819-797-3804</a></label>
-
-</div>-->
         </div>
 
     </div>
@@ -289,10 +279,10 @@
     <!-- Contact section - end -->
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="../js/libs/angular.min.js"></script>
     <script src="../js/libs/bootstrap.min.js"></script>
+    <!--<script src="../js/libs/angular.min.js"></script>
     <script src="../js/app.js"></script>
-    <script src="../js/home.js"></script>
+    <script src="../js/home.js"></script>-->
 </body>
 
 </html>
