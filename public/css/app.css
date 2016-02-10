@@ -28,6 +28,14 @@
     .mobile-height {
         height: 400px;
     }
+    .wow {
+        visibility: visible !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
 }
 @media screen and (min-width: 600px) {
     .no-margin {
@@ -71,9 +79,12 @@ body {
     border-color: #e62739;
 }
 .jumbotron {
-    margin-top: 20%;
+    margin-top: 18%;
     margin-bottom: 23%;
     background-color: transparent;
+}
+#contact .jumbotron {
+    margin-top: 20%;
 }
 #work {
     background-color: #9068be;
@@ -101,11 +112,12 @@ body {
 .app-store-link {
     color: white;
 }
-//hide scrollbars but not their functionality - start
+
+/*hide scrollbars but not their functionality - start*/
+
 html {
     overflow: scroll;
     overflow-x: hidden;
-    overflow: -moz-scrollbars-none;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -119,4 +131,5 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-//hide scrollbars but not their functionality - end
+
+/*hide scrollbars but not their functionality - end*/
