@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../css/app.css" />
+    <link rel="stylesheet" type="text/css" href="../css/animate.min.css" />
     <link rel="shortcut icon" href="../images/favicon.png" />
 
     <title>mahayogi-android&#124;full-stack developer</title>
@@ -52,17 +53,13 @@
 
             <div class="row text-center jumbotron height hide-mobile">
                 <div class="col-md-12">
-                    <h1 class="metrophobic-font">mahayogi</h1>
-                    <span> android and full-stack developer</span>
+                    <div class="wow lightSpeedIn">
+                        <h1>mahayogi</h1>
+                        <span class="wow fadeIn" data-wow-delay="1s"> android and full-stack developer</span>
+                    </div>
+
                 </div>
             </div>
-            <!--<div class="row text-center height show-mobile">
-    <div class="col-md-12">
-        <h1>mahayogi</h1>
-        <span> android and full-stack developer</span>
-    </div>
-</div>-->
-
         </div>
     </div>
     <!-- Home section - end -->
@@ -261,16 +258,16 @@
     <div id="contact" class="pad-section">
         <div class="container-fluid text-center">
             <div class="row text-center jumbotron padding-mobile mobile-height">
-                <div class="col-md-12 hide-mobile">
-                    <h1>Contact</h1>
+                <div class="col-md-12">
+                    <h1 class="wow lightSpeedIn">Contact</h1>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 tag">
+                    <div class="col-md-12 tag wow fadeIn" data-wow-delay="1s">
                         <span class="glyphicon glyphicon-envelope"></span>
                         <label><a href="mailto:mygreymatter@gmail.com?subject=inquiry"><h4>mygreymatter@gmail.com</h4></a></label>
                     </div>
                 </div>
-                <div class="row tag">
+                <div class="row wow fadeIn" data-wow-delay="1s">
                     <span class="glyphicon glyphicon-earphone"></span>
                     <label><a href="tel:+91-819-797-3804"><h4>(+91) 819-797-3804</h4></a></label>
 
@@ -284,6 +281,11 @@
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="../js/libs/bootstrap.min.js"></script>
+    <script src="../js/libs/wow.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
     <!--<script src="../js/libs/angular.min.js"></script>
     <script src="../js/app.js"></script>
     <script src="../js/home.js"></script>-->
