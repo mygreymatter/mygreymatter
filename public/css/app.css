@@ -36,6 +36,11 @@
         -ms-animation: none !important;
         animation: none !important;
     }
+    .navbar {
+        margin-bottom: 0;
+        background-color: #455A64;
+        border-color: #455A64;
+    }
 }
 @media screen and (min-width: 600px) {
     .no-margin {
@@ -56,6 +61,12 @@
     .margin-bottom-10 {
         margin-bottom: 10px;
     }
+    .navbar {
+        margin-bottom: 0;
+        margin-right: 20px;
+        background-color: transparent;
+        border-color: transparent;
+    }
 }
 .description {
     font-size: 20px;
@@ -70,13 +81,8 @@
     display: none !important;
 }
 body {
-    background-color: #6ed3cf;
+    background-color: #CFD8DC;
     font-family: 'Montserrat';
-}
-.navbar {
-    margin-bottom: 0;
-    background-color: #e62739;
-    border-color: #e62739;
 }
 .jumbotron {
     margin-top: 18%;
@@ -87,10 +93,10 @@ body {
     margin-top: 20%;
 }
 #work {
-    background-color: #9068be;
+    background-color: #e1e8f0;
 }
 #profile {
-    background-color: #6ed3cf;
+    background-color: transparent;
 }
 #contact {
     background-color: #e1e8f0;
@@ -110,7 +116,7 @@ body {
     width: 100%;
 }
 .app-store-link {
-    color: white;
+    color: #455A64;
 }
 
 /*hide scrollbars but not their functionality - start*/
